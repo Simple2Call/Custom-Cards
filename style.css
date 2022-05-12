@@ -1,7 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700");
 @import url("https://fonts.googleapis.com/css?family=Libre+Baskerville:400,700");
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 
 body {
   font-family: "Open Sans", sans-serif;
@@ -177,7 +176,7 @@ a:active {
 .profile-card-2 .card-text {
   font-size: 16px;
   font-weight: 300;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .profile-card-2 i {
@@ -291,19 +290,19 @@ a:active {
 .profile-card-3 i {
   display: inline;
   font-size: 17px;
-  color: #1565c0;
+  color: #2571be;
   text-align: center;
   width: 30px;
   height: 30px;
   border-radius: 50%;
-  border: 1px solid #1565c0;
+  border: 1px solid #2571be;
   line-height: 30px;
   padding: 8px;
   margin: 0 5px;
 }
 
 .profile-card-3 i:hover {
-  background-color: #1565c0;
+  background-color: #2571be;
   color: #fff;
   text-decoration: none;
 }
@@ -329,3 +328,35 @@ a:hover {
 a:active {
   text-decoration: none;
 }
+
+/*************** Card Three Ends **************/
+
+/*************** Card Four Starts **************/
+
+.profile-card-4 .card-img-block {
+  width: 90%;
+  margin: 0 auto;
+  position: relative;
+  top: -20px;
+}
+
+.profile-card-4 .card-img-block img {
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+}
+
+.profile-card-4 h5 {
+  font-size: 18px;
+  font-weight: 800;
+}
+
+.profile-card-4 p {
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.my-btn {
+  background-color: #2571be;
+}
+
+/*************** Card Four Ends **************/
