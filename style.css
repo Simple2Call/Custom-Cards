@@ -1,8 +1,14 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700");
 @import url("https://fonts.googleapis.com/css?family=Libre+Baskerville:400,700");
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 
 body {
   font-family: "Open Sans", sans-serif;
+}
+
+.title-text {
+  font-size: 35px;
 }
 
 *:hover {
@@ -119,6 +125,22 @@ h1 a {
   margin-top: 15px;
 }
 
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
+
 /*************** Card One Ends ***************/
 
 /*************** Card Two Starts ***************/
@@ -149,32 +171,161 @@ h1 a {
 
 .profile-card-2 h5 {
   font-weight: 800;
-  color: #019031;
+  color: #2571be;
 }
 
 .profile-card-2 .card-text {
   font-size: 16px;
   font-weight: 300;
+  font-family: 'Roboto', sans-serif;
 }
 
 .profile-card-2 i {
   display: inline-block;
   font-size: 17px;
-  color: #019031;
+  color: #2571be;
   text-align: center;
   width: 30px;
   height: 30px;
   border-radius: 50%;
-  border: 1px solid #019031;
-
+  border: 1px solid #2571be;
   padding: 5px;
   margin: 0 5px;
 }
 
 .profile-card-2 i:hover {
-  background-color: #019031;
+  background-color: #2571be;
   color: #fff;
   text-decoration: none;
 }
 
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
+
 /*************** Card Two Ends ***************/
+
+/*************** Card Three Starts **************/
+
+.profile-card-3 {
+  height: 368px;
+  position: relative;
+  float: left;
+  overflow: hidden;
+  text-align: center;
+  border: none;
+  width: 100%;
+}
+
+.profile-card-3 .background-block {
+  float: left;
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+}
+
+.profile-card-3 .background-block .background {
+  width: 100%;
+  vertical-align: top;
+  filter: blur(1px);
+  transform: scale(2);
+}
+
+.profile-card-3 .card-content {
+  width: 100%;
+  padding: 15px 25px;
+  color: #232323;
+  background: #efefef;
+  height: 50%;
+  position: relative;
+  z-index: 9999;
+}
+
+.profile-card-3 .card-content::before {
+  content: "";
+  background: #efefef;
+  width: 120%;
+  height: 100%;
+  position: absolute;
+  left: 10px;
+  bottom: 50px;
+  transform: rotate(-13deg);
+  z-index: -1;
+}
+
+.profile-card-3 .user-profile {
+  border-radius: 50%;
+  z-index: 99999;
+  position: absolute;
+  left: 50%;
+  bottom: 50%;
+  transform: translate(-50%, 0%);
+  min-width: 100px;
+  border: 2px solid rgba(255, 255, 255, 1);
+}
+
+.profile-card-3 h2 {
+  margin: 0 0 5px;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.profile-card-3 small {
+  display: block;
+  font-size: 15px;
+  margin-top: 10px;
+}
+
+.profile-card-3 i {
+  display: inline;
+  font-size: 17px;
+  color: #1565c0;
+  text-align: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 1px solid #1565c0;
+  line-height: 30px;
+  padding: 8px;
+  margin: 0 5px;
+}
+
+.profile-card-3 i:hover {
+  background-color: #1565c0;
+  color: #fff;
+  text-decoration: none;
+}
+
+.profile-card-3 .icon-block {
+  float: left;
+  width: 100%;
+  margin-top: 15px;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
